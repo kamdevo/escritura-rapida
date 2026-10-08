@@ -36,6 +36,10 @@ public class GameSystem {
         return currentWord;
     }
 
+    public boolean maxLevelReached() {
+        return completedLevels >= MAX_LEVEL;
+    }
+
 
     /**
      * Calculates the time available for the current level.
