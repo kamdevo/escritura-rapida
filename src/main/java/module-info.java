@@ -1,8 +1,10 @@
-module com.example.demo {
+module com.example.minigame {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens com.example.demo to javafx.fxml;
-    exports com.example.demo;
+    opens com.example.minigame to javafx.fxml;
+    exports com.example.minigame;
+    opens com.example.minigame.controllers to javafx.fxml;
+    exports com.example.minigame.controllers;
 }
