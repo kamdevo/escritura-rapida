@@ -1,0 +1,5 @@
+module:com.example.minigame
+com.example.minigame
+com.example.minigame.controllers
+com.example.minigame.models
+com.example.minigame.views

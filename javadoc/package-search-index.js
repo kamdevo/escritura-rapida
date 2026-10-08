@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html","k":"18"},{"m":"com.example.minigame","l":"com.example.minigame"},{"m":"com.example.minigame","l":"com.example.minigame.controllers"},{"m":"com.example.minigame","l":"com.example.minigame.models"},{"m":"com.example.minigame","l":"com.example.minigame.views"}];updateSearchResults();
