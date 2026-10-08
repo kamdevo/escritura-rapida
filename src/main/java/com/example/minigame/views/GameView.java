@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class GameView extends Stage {
 
-    private GameController controller;
+    private  GameController controller;
 
     public GameView() throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(

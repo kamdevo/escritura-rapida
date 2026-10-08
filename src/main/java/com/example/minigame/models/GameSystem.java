@@ -18,6 +18,19 @@ public class GameSystem {
         completedLevels = 0;
     }
 
+    /**
+     * Checks if the answer is exactly equal to the current word.
+     * Letters, spaces, uppercase and punctuation are taken into account.
+     *
+     * @param answer the text typed by the player
+     * @return {@code true} if the answer is correct, {@code false} otherwise
+     */
+    public boolean checkAnswer(String answer) {
+        return currentWord != null && currentWord.equals(answer);
+    }
+
+
+
     public String nextWord() {
         currentWord = wordBank.getRandomWord();
         return currentWord;
