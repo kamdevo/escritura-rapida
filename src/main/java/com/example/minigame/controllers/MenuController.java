@@ -10,11 +10,32 @@ import javafx.scene.input.MouseEvent;
 
 import java.io.IOException;
 
+/**
+ * Controller for the main menu view.
+ * <p>
+ * It reads the username, creates the {@link Player}
+ * and opens the game window.
+ *
+ * @author Juan Camilo Morales
+ * @author Nicolas Palacios
+ * @version 1.0
+ */
 public class MenuController {
 
+    /** Text field where the player enters their username. */
     @FXML
     private TextField usernameTextField;
 
+    /**
+     * Starts the game when the play button is clicked.
+     * <p>
+     * It creates the player with the given username, passes it to the
+     * game controller and switches from the menu to the game window.
+     * If the username is empty, an alert asks the player to fill it in
+     * and the game does not start.
+     *
+     * @param event the mouse event that triggered the action
+     */
     @FXML
     void onMouseClickedPlayBtn(MouseEvent event) {
         String username = usernameTextField.getText();
@@ -25,6 +46,7 @@ public class MenuController {
                     "Escritura rapida - Nombre de usuario",
                     "Nombre de usuario",
                     "Debes diligenciar tu nombre de usuario.");
+            return;
         }
 
         Player player = new Player();
