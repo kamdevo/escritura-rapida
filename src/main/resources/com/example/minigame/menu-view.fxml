@@ -15,7 +15,7 @@
 
 <StackPane opacity="0.87" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.minigame.controllers.MenuController">
    <children>
-      <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.85" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="400.0" fitWidth="600.0" opacity="0.91" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@images/real-bg.png" />
          </image>
