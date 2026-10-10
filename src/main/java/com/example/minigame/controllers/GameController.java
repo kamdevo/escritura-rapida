@@ -27,6 +27,7 @@ import javafx.util.Duration;
  *
  * @author Juan Camilo Morales
  * @author Nicolas Palacios
+ * @author Juan Camilo Pinzon
  * @version 1.0
  */
 public class GameController {

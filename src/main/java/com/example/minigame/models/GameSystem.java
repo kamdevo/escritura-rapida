@@ -9,6 +9,7 @@ package com.example.minigame.models;
  *
  * @author Juan Camilo Morales
  * @author Nicolas Palacios
+ * @author Juan Camilo Pinzon
  * @version 1.0
  */
 public class GameSystem {

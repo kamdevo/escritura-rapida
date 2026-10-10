@@ -9,12 +9,13 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 /**
- * Main class of the JavaFX application.
+ * Main class.
  * <p>
  * It starts the game by opening the main menu.
  *
  * @author Juan Camilo Morales
  * @author Nicolas Palacios
+ * @author Juan Camilo Pinzon
  * @version 1.0
  * @see MenuView
  */

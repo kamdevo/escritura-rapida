@@ -9,6 +9,7 @@ import javafx.application.Application;
  *
  * @author Juan Camilo Morales
  * @author Nicolas Palacios
+ * @author Juan Camilo Pinzon
  * @version 1.0
  */
 public class Launcher {

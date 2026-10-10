@@ -15,6 +15,7 @@ import java.io.IOException;
  *
  * @author Juan Camilo Morales
  * @author Nicolas Palacios
+ * @author Juan Camilo Pinzon
  * @version 1.0
  */
 public class MenuView extends Stage {
